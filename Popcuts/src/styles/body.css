@@ -1,0 +1,65 @@
+
+
+.presentation{
+
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+
+    background-color: var(--light);
+
+}
+
+.title{
+
+    
+    font-family: var(--subtitulos);
+    
+    font-weight: 600;
+    font-size: 4rem;
+    /* line-height: 6rem; */
+    
+    color: var(--primary);
+}
+
+.title-presentation span{
+
+    color: var(--colorsecundario);
+
+}
+
+.info{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+
+
+}
+
+.info-presentation{
+
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.item-card{
+
+    background-color: var(--primary);
+
+}
+
+.seccion-b button.item-card {
+
+    background-color: var(--colorsecundario);
+
+}
